@@ -4,6 +4,8 @@
 
 The [Even Realities G2](https://www.evenrealities.com) are everyday display smart glasses with dual micro-LED displays, no camera, and no speaker, paired with the R1 control ring. G2 apps are web apps: your code runs on a server, the iPhone Even App loads it in a WebView, and display and input are relayed over BLE to the glasses. This list collects the best community and official resources for building them.
 
+**Scope:** This is a resource for *building* on the G2 — every entry is open source or an official resource you can read, clone, and learn from. Closed-source apps aren't listed in these sections; if you've built one, open an issue and we can look at adding a separate app directory for owners down the line.
+
 ## Contents
 
 - [Official](#official)
