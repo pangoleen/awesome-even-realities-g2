@@ -57,6 +57,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [even-g2-protocol](https://github.com/i-soxi/even-g2-protocol) - Community effort to reverse-engineer the G2 BLE protocol, with characteristic mapping and Python examples.
 - [g2-kit-unofficial](https://github.com/Commute773/g2-kit-unofficial) - Unofficial reverse-engineering kit including R1 ring authentication and 27 decoded protobuf definitions.
 - [even-g2-patched](https://github.com/cokeeffekt/even-g2-patched) - Patched Even app build that bypasses voice-intent interception so every G2 voice command routes to a custom AI agent.
+- [g2flash](https://github.com/jimrandomh/g2flash) - Custom firmware for the G2 that adds compressed image transfer, full-screen 576x288 single-image support, per-lens stereo output, and beeper tones, paired with matching custom send-side software.
 
 ## Apps - Productivity and Utilities
 
@@ -137,6 +138,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 
 - [awesome-even-realities-g1](https://github.com/galfaroth/awesome-even-realities-g1) - Companion list for the first-generation G1 glasses.
 - [Even Realities G1 Examples and Posts](https://github.com/hpssjellis/my-examples-and-posts-of-g1-even-realities-smart-glasses) - Field notes, hacks, and examples for the G1.
+- [even_realities_decomp](https://github.com/JohnRThomas/even_realities_decomp) - Reverse-engineering and decompilation of the first-generation G1 firmware.
 
 ## Community
 
