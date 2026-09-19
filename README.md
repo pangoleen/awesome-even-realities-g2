@@ -297,6 +297,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [kubectl Drill](https://github.com/hiimivantang/g2-kubectl-drill) - Spaced-repetition kubectl practice for CKA, CKAD, and CKS preparation.
 - [WAD Player](https://github.com/jpneagle/WAD-Player-for-Even-G2) - Runs the DOOM-compatible PureDOOM engine on the phone and streams the display to the G2.
 - [CubeNet](https://github.com/r-tkbyc/even-cube-net) - Cube puzzle played as its unfolded net, with faces turned by the R1 ring.
+- [G2 Planetarium](https://github.com/kuma0128/planetarium-even-g2) - Sky map prototype with stars, constellations, the Moon, planets, and manual or phone compass alignment.
 
 ## Apps - Media and Music
 
