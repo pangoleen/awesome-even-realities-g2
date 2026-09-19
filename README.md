@@ -361,6 +361,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [xangi for G2](https://github.com/karaage0703/xangi-even-g2) - Connects the G2 to the xangi AI agent, with voice input transcribed by a local Whisper server.
 - [ExEye](https://github.com/sng516157-web/ExEye) - Adds vision to the camera-less G2 by sending a frame from an ESP32 camera or webcam with a spoken prompt to a vision model.
 - [AI Sales Assistant](https://github.com/ObadaSayed/EvenRealities-AI-Sales-Assistant) - Browses Salesforce accounts and surfaces live meeting cues on the lens from speech transcription and GPT.
+- [Even G2 GPT](https://github.com/JintaoHe/even-g2-gpt) - Self-hosted multilingual voice assistant for the G2 with Google Calendar, email delivery, routing, and Soniox transcription.
 
 ## Related and Legacy (G1)
 
