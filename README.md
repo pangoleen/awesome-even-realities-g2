@@ -86,6 +86,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Mentra-Bluetooth-SDK-Starter-Kit](https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit) - Apache-2.0 native BLE SDK starter kit for connecting an Android, iOS, or React Native app to smart glasses, including the G2, powered by MentraOS.
 - [mentra-bluetooth-sdk-ios](https://github.com/Mentra-Community/mentra-bluetooth-sdk-ios) - Swift Package Manager distribution of the Mentra Bluetooth SDK for iOS.
 - [even-realities-app-template](https://github.com/r4stl1n/even-realities-app-template) - MIT-licensed native SwiftUI baseline app for the G2 and R1 ring, with direct BLE, LC3 audio, microphone capture, and on-device speech-to-text.
+- [b-d](https://github.com/b-d-io/b-d) - Firmware-exact G2 line breaking built on pretext, a browser lens simulator, and an MCP server that lets AI assistants preview text and send it to the glasses through a phone.
 
 ## Protocol and Reverse Engineering
 
