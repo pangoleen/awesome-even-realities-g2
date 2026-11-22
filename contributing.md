@@ -28,3 +28,23 @@ To be included, a project should be genuinely useful to someone building on the 
 - Confirm your addition is not already present, and is not a duplicate of an existing entry.
 
 Pull requests that do not follow these guidelines may be asked to revise before merging.
+
+## Entry requirements
+
+Every entry must point at a **public** repository or page. Private repositories
+are never listed: the link 404s for readers, and it can expose work the author
+has not chosen to publish.
+
+Before you open a pull request, run:
+
+```bash
+./scripts/check-entries.sh README.md
+```
+
+CI runs the same check on every pull request and weekly, so entries that are
+later deleted or flipped to private get caught.
+
+Note for maintainers: an authenticated GitHub API call returns *your own*
+private repositories as if they were public, and search results include them.
+Never take a search hit or a 200 response as proof that a repository is public.
+The check above asks for the `private` flag explicitly.

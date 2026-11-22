@@ -1,0 +1,29 @@
+name: Validate list
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Entries rot: repos get deleted or flipped to private. Re-check weekly.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: awesome-lint
+        run: npx -y awesome-lint README.md
+
+      - name: Check entries are public and reachable
+        # GITHUB_TOKEN is scoped to this repository only, so it cannot see any
+        # private repo. A private or deleted entry therefore fails here.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/check-entries.sh README.md
