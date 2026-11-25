@@ -287,6 +287,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [dashboardplus](https://github.com/semokamo/dashboardplus) - Shows a dashboard on the G2 built with the Even Hub SDK.
 - [g2-jw-daily-text](https://github.com/iantle/g2-jw-daily-text) - Fetches and shows a daily text on the G2, as a Finnish test app.
 - [g2-keep](https://github.com/aramood/g2-keep) - Connects Google Keep to the G2 and R1 as an experiment.
+- [g2-hud](https://github.com/JoshUnity/g2-hud) - Collects five G2 apps: an ADS-B aircraft radar, a live city map, meeting answers that use your Obsidian notes, a Claude Code controller, and chat with a self-hosted model.
 
 ## Apps - Reading and Reference
 
